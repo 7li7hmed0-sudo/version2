@@ -19,11 +19,14 @@ local Tab = {
 	brk = Window:MakeTab({Name = "BrookHeaven",Icon = "rbxassetid://4483345998",PremiumOnly = false}),
 	evade = Window:MakeTab({Name = "Evade",Icon = "rbxassetid://4483345998",PremiumOnly = false}),
 	tsb = Window:MakeTab({Name = "TheStrongest",Icon = "rbxassetid://4483345998",PremiumOnly = false}),
+	ban = Window:MakeTab({Name = "BananaEats",Icon = "rbxassetid://4483345998",PremiumOnly = false}),
+	gun = Window:MakeTab({Name = "GunFight Arena",Icon = "rbxassetid://4483345998",PremiumOnly = false}),
+	leg = Window:MakeTab({Name = "Legends Of Speed",Icon = "rbxassetid://4483345998",PremiumOnly = false}),
 	ss = Window:MakeTab({Name = "Settings",Icon = "rbxassetid://4483345998",PremiumOnly = false})
 }
 
 
---Main Section
+--Main Section--
 local Section = Tab.Main:AddSection({
 	Name = "Main"
 })
@@ -32,9 +35,12 @@ local Section = Tab.Main:AddSection({
 
 Tab.Main:AddParagraph("My Telegram Channel",
                     "aliahmed_7lihub")
---end
 
---bloxFruit
+Tab.Main:AddParagraph("What Is 7LI HUB Script",
+                    "7LI HUB | by 7LI7HMEDYT is a Roblox multi-game script hub designed to give players access to features for several popular games such as Blox Fruits, Adopt Me, MM2, Greenville, 99 Night, Grow a Garden, and Steal a Brainrot, all from one clean and simple interface, featuring a main tab with a side navigation menu for easy switching between games, a dark modern UI with open and close controls, and an additional “All Evade Scripts” section that is currently under development, making it a centralized and expanding hub aimed at convenience and multi-game support.")					
+--end--
+
+--bloxFruit--
 local Section = Tab.blx:AddSection({
 	Name = "All BloxFruit Scripts"
 })
@@ -58,13 +64,13 @@ Tab.blx:AddButton({
 Tab.blx:AddButton({
 	Name = "Blue X Hub Script",
 	Callback = function()
-		
+		    loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
       		print("button pressed")
   	end    
 })
---end
+--end--
 
---adoptme
+--adoptme--
 local Section = Tab.adoptme:AddSection({
 	Name = "All Adopt ME Scripts"
 })
@@ -76,7 +82,111 @@ Tab.adoptme:AddButton({
       		print("button pressed")
   	end    
 })
---end
+--end--
+
+--night--
+local Section = Tab.night:AddSection({
+	Name = "All 99Night Scripts"
+})
+
+Tab.night:AddParagraph("We Are Working On It"," ")
+--end--
+
+--gag--
+local Section = Tab.gag:AddSection({
+	Name = "All GrowAGarden Scripts"
+})
+
+Tab.gag:AddParagraph("We Are Working On It"," ")
+--end--
+
+--sab--
+local Section = Tab.sab:AddSection({
+	Name = "All StealABrainrot Scripts"
+})
+
+Tab.sab:AddParagraph("We Are Working On It"," ")
+--end--
+
+--mm2--
+local Section = Tab.mm2:AddSection({
+	Name = "All MM2 Scripts"
+})
+
+Tab.mm2:AddParagraph("We Are Working On It"," ")
+--end--
+
+--start--
+local Section = Tab.gcar:AddSection({
+	Name = "All Greenvilee Scripts"
+})
+
+Tab.gcar:AddParagraph("We Are Working On It"," ")
+--end--
+
+--start--
+local Section = Tab.bb:AddSection({
+	Name = "All BladeBall Scripts"
+})
+
+Tab.bb:AddParagraph("We Are Working On It"," ")
+--end--
+
+--start--
+local Section = Tab.brk:AddSection({
+	Name = "All BrookHeaven Scripts"
+})
+
+Tab.brk:AddParagraph("We Are Working On It"," ")
+--end--
+
+--start--
+local Section = Tab.evade:AddSection({
+	Name = "All Evade Scripts"
+})
+
+Tab.evade:AddParagraph("We Are Working On It"," ")
+--end--
+
+--start--
+local Section = Tab.tsb:AddSection({
+	Name = "All TheStrongest Scripts"
+})
+
+Tab.tsb:AddParagraph("We Are Working On It"," ")
+--end--
+
+--start--
+local Section = Tab.ban:AddSection({
+	Name = "All BananaEats Scripts"
+})
+
+Tab.ban:AddParagraph("We Are Working On It"," ")
+--end--
+
+--start--
+local Section = Tab.gun:AddSection({
+	Name = "All GunFight Arena Scripts"
+})
+
+Tab.gun:AddParagraph("We Are Working On It"," ")
+--end--
+
+--start--
+local Section = Tab.leg:AddSection({
+	Name = "All Legends Of Speed Scripts"
+})
+
+Tab.leg:AddParagraph("We Are Working On It"," ")
+--end--
+
+--start--
+local Section = Tab.ss:AddSection({
+	Name = "Settings"
+})
+
+Tab.ss:AddParagraph("We Are Working On It"," ")
+--end--
 
 OrionLib:MakeNotification({
 	Name = "Notification",
