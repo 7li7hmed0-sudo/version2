@@ -113,7 +113,149 @@ local Section = Tab.mm2:AddSection({
 	Name = "All MM2 Scripts"
 })
 
-Tab.mm2:AddParagraph("We Are Working On It"," ")
+Tab.MM2:AddButton({
+	Name = " Script",
+	Callback = function()
+		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/241f48b1fc63b8e5c641df2af4b39d0c.lua"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab.MM2:AddButton({
+	Name = " Script",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/KidichiHB/Kidachi/main/Scripts/MM2", true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab.MM2:AddButton({
+	Name = " Script",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
+      		print("button pressed")
+  	end    
+})
+
+Tab.MM2:AddButton({
+	Name = " Script",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/azc0/OMK/main/Azc-mm2"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab.MM2:AddButton({
+	Name = " Script",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/PotatoesDev/Lunar/main/LunarXyz.lua'))()
+      		print("button pressed")
+  	end    
+})
+
+Tab.MM2:AddButton({
+	Name = " Script",
+	Callback = function()
+		loadstring(game:HttpGet(“https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2))
+      		print("button pressed")
+  	end    
+})
+
+Tab.MM2:AddButton({
+	Name = " Script",
+	Callback = function()
+		loadstring(game:HttpGet(“https://raw.githubusercontent.com/s-o-a-b/nexus/main/loadstring))
+      		print("button pressed")
+  	end    
+})
+
+Tab.MM2:AddButton({
+	Name = " Script",
+	Callback = function()
+		loadstring(game:HttpGet('https://pastebin.com/raw/5vgQwAHU'))() --Key:AZC--
+      		print("button pressed")
+  	end    
+})
+
+Tab.MM2:AddButton({
+	Name = " Script",
+	Callback = function()
+		loadstring(game:HttpGet("https://scriptblox.com/raw/Murder-Mystery-2-AtherHub-18013"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab.MM2:AddButton({
+	Name = " Script",
+	Callback = function()
+		loadstring(game:HttpGet("https://scriptblox.com/raw/Murder-Mystery-2-OP-God-Hub-Unlock-Inventory-Break-Sheriff-Gun-Auto-Farm-Best-17997"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab.MM2:AddButton({
+	Name = " Script",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab.MM2:AddButton({
+	Name = " Script",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/s-o-a-b/nexus/main/loadstring"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab.MM2:AddButton({
+	Name = " Script",
+	Callback = function()
+		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-YARHM-12403"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab.MM2:AddButton({
+	Name = " Script",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Youifpg/AZC-BLOX-FRUIT/refs/heads/main/AZCUI.lua?token=GHSAT0AAAAAACXUSB7FUGKCGPOP2JNL23XMZXOAOQA"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab.MM2:AddButton({
+	Name = " Script",
+	Callback = function()
+		loadstring(game:HttpGet(('https://pastefy.app/FPGI0uTW/raw'),true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab.MM2:AddButton({
+	Name = " Script",
+	Callback = function()
+		loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-YARHM-12403"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab.MM2:AddButton({
+	Name = " Script",
+	Callback = function()
+		loadstring(game:HttpGet("https://overdrive-h.ohd.workers.dev/?d=loader"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab.MM2:AddButton({
+	Name = " Script",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsJiDy/Personal-Script/refs/heads/main/mm2%20halloween.lua"))()
+      		print("button pressed")
+  	end    
+})
 --end--
 
 --start--
